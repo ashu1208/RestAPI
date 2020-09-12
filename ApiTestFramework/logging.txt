@@ -1,0 +1,115 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": 20.123,
+        "lng": 30.235
+    },
+    "accuracy": 50,
+    "name": "Ashutosh",
+    "phone_number": "(+91)9724166406",
+    "address": "Sea Cooperation",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "https://Google.com",
+    "language": "English"
+}
+HTTP/1.1 200 OK
+Date: Sat, 12 Sep 2020 07:02:52 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "daecfee93fea35bb842ebae277991452",
+    "scope": "APP",
+    "reference": "6a031c2503a713f1146cc5bf7608b6696a031c2503a713f1146cc5bf7608b669",
+    "id": "6a031c2503a713f1146cc5bf7608b669"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=daecfee93fea35bb842ebae277991452
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=daecfee93fea35bb842ebae277991452
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sat, 12 Sep 2020 07:02:53 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 229
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "20.123",
+        "longitude": "30.235"
+    },
+    "accuracy": "50",
+    "name": "Ashutosh",
+    "phone_number": "(+91)9724166406",
+    "address": "Sea Cooperation",
+    "types": "shoe park,shop",
+    "website": "https://Google.com",
+    "language": "English"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "daecfee93fea35bb842ebae277991452"
+}
+HTTP/1.1 200 OK
+Date: Sat, 12 Sep 2020 07:02:55 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}
